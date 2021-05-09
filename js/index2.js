@@ -344,7 +344,7 @@ function getData() {
     $.ajax({
         type: "get",
         dataType: "jsonp",
-        url: "https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?g_tk=5381&uin=0&format=json&inCharset=utf-8&outCharset=utf-8¬ice=0&platform=h5&needNewCode=1&tpl=3&page=detail&type=top&topid=27&_=1519963122923",
+        url: "data/date.json",
         jsonp: "jsonpCallback",
         scriptCharset: "GBK",
         success: function (data) {
